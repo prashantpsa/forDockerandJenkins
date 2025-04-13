@@ -13,6 +13,6 @@ public class PostEx {
     @GetMapping()
     public ResponseEntity<String> postexample(){
 
-        return new ResponseEntity<>("hello world",HttpStatus.OK);
+        return new ResponseEntity<>("hello world-fromPrashantAnkushkani",HttpStatus.OK);
     }
 }
