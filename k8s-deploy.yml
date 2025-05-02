@@ -18,7 +18,7 @@ spec:
   spec:
    containers:
    - name: webappcontainer
-     image: psait/pankajsiracademy:latest
+     image: prashantankushkani/kubex:latest
      ports:
      - containerPort: 9090
 ---
