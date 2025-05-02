@@ -4,6 +4,6 @@ COPY target/dockerExample.jar  /usr/app/
 
 WORKDIR /usr/app/
 
-EXPOSE 9090
+EXPOSE 8080
 
 ENTRYPOINT ["java", "-jar", "dockerExample.jar"]
