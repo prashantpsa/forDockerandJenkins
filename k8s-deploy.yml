@@ -32,5 +32,5 @@ spec:
   app: javawebapp
  ports:
   - port: 80
-    targetPort: 9090
+    targetPort: 8080
 ...
